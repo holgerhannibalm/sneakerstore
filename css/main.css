@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    width: fixed;
+    height: auto;
+  }
+  
+  body {
+    font-family: Arial, Georgia, serif;
+    width: inherit;
+  }
+  
+  html {
+    background: url("images/background-img.jpg"); no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat, repeat-y;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
+.header {
+    text-align: center;
+    margin-top: auto;
+    width: auto;
+    height: 50px;
+    background-color: #DEB887;
+    color: #FFF;
+}
+
+.airforce-img {
+    position: relative;
+    left: 100px;
+    top: 70px;
+}
+
+#produkt {
+    background-color: #FFF;
+    width: 300px;
+    height: 210px;
+    border: solid;
+    text-align: center;
+    position: relative;
+    top: 70px;
+    left: 100px;
+}
+
+.navbar {
+    position: relative;
+    width: auto;
+    background-color: lightgray;
+    top: 120px;
+    height: 30px;
+    text-align: center;
+}
+
+#review {
+    position: relative;
+    top: 250px;
+    width: 500px;
+    height: 135px;
+    background-color: white;
+    border: solid;
+    font-family: cursive;
+    align: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+span {
+    font-weight: 900;
+}
+
+#pris {
+    width: 200px;
+    height: 70px;
+    background-color: #FFF;
+    position: relative;
+    float: right;
+    right: 700px;
+    bottom: 500px;
+}
